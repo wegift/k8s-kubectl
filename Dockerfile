@@ -4,7 +4,7 @@ FROM alpine
 LABEL org.label-schema.vcs-url="https://github.com/wegift/k8s-kubectl" \
       org.label-schema.docker.dockerfile="/Dockerfile"
 
-ENV KUBE_LATEST_VERSION="v1.19.16"
+ENV KUBE_LATEST_VERSION="v1.21.14"
 
 RUN apk add --update ca-certificates \
  && apk add --update make libintl gettext bash \
