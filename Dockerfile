@@ -4,7 +4,7 @@ FROM alpine
 LABEL org.label-schema.vcs-url="https://github.com/wegift/k8s-kubectl" \
       org.label-schema.docker.dockerfile="/Dockerfile"
 
-ENV KUBE_LATEST_VERSION="v1.24.14"
+ENV KUBE_LATEST_VERSION="v1.32.1"
 ENV TANKA_VERSION="v0.23.1"
 ENV JSONNET_VERSION="v0.5.1"
 
